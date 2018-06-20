@@ -14,6 +14,7 @@ namespace Engine
         public PlayerQuest(Quest details)
         {
             Details = details;
+            IsCompleted = false;
 
         }
 
