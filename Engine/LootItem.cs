@@ -14,7 +14,9 @@ namespace Engine
 
         public LootItem (Item details, int dropPercentage, bool isDefaultItem)
         {
-
+            Details = details;
+            DropPercentage = dropPercentage;
+            IsDefaultItem = isDefaultItem;
 
 
         }
