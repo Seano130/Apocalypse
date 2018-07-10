@@ -13,8 +13,10 @@ namespace Engine
         public int MaximumDamage { get; set; }
         public int RewardXP { get; set; }
         public int RewardGold { get; set; }
+        public List<LootItem> LootTable { get; set; }
 
-        public Monster(int id, string name, int maximumDamage, int rewardXP, int rewardGold, int currentHP, int maxHP) : base(currentHP, maxHP)
+        public Monster(int id, string name, int maximumDamage, int rewardXP, int rewardGold, int currentHP, int maxHP)
+            : base(currentHP, maxHP)
         {
             ID = id;
             Name = name;
@@ -23,6 +25,7 @@ namespace Engine
             RewardGold = rewardGold;
             CurrentHP = currentHP;
             MaxHP = maxHP;
+            LootTable = new List<LootItem>();
 
 
         }
