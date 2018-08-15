@@ -36,6 +36,7 @@
             this.lblGold = new System.Windows.Forms.Label();
             this.lblXP = new System.Windows.Forms.Label();
             this.lblLevel = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -106,11 +107,21 @@
             this.lblLevel.Size = new System.Drawing.Size(0, 13);
             this.lblLevel.TabIndex = 7;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(155, 237);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(69, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Select action";
+            // 
             // ApocalypseDemo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 651);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.lblLevel);
             this.Controls.Add(this.lblXP);
             this.Controls.Add(this.lblGold);
@@ -136,6 +147,7 @@
         private System.Windows.Forms.Label lblGold;
         private System.Windows.Forms.Label lblXP;
         private System.Windows.Forms.Label lblLevel;
+        private System.Windows.Forms.Label label5;
     }
 }
 
