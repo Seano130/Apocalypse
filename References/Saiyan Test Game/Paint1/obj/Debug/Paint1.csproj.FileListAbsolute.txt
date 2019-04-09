@@ -1,0 +1,10 @@
+C:\Users\CCSDuser\Desktop\Game PRG\Paint1\Paint1\bin\Debug\Paint1.exe.config
+C:\Users\CCSDuser\Desktop\Game PRG\Paint1\Paint1\bin\Debug\Paint1.exe
+C:\Users\CCSDuser\Desktop\Game PRG\Paint1\Paint1\bin\Debug\Paint1.pdb
+C:\Users\CCSDuser\Desktop\Game PRG\Paint1\Paint1\obj\Debug\Paint1.csprojAssemblyReference.cache
+C:\Users\CCSDuser\Desktop\Game PRG\Paint1\Paint1\obj\Debug\Paint1.FrmMain.resources
+C:\Users\CCSDuser\Desktop\Game PRG\Paint1\Paint1\obj\Debug\Paint1.Properties.Resources.resources
+C:\Users\CCSDuser\Desktop\Game PRG\Paint1\Paint1\obj\Debug\Paint1.csproj.GenerateResource.cache
+C:\Users\CCSDuser\Desktop\Game PRG\Paint1\Paint1\obj\Debug\Paint1.csproj.CoreCompileInputs.cache
+C:\Users\CCSDuser\Desktop\Game PRG\Paint1\Paint1\obj\Debug\Paint1.exe
+C:\Users\CCSDuser\Desktop\Game PRG\Paint1\Paint1\obj\Debug\Paint1.pdb

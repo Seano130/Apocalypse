@@ -9,3 +9,4 @@ File Structure :
 "Old Demo Version" = Previous test of idea and basic RPG elements mostly inspired from other projects
 "References" = Older projects created in class that will provide reference and help in terms code structure and syntax
 "Assets" = A folder containing art assets created by me that will be used to paint objects in the game
+"Main Game" = Refers to the main Visual Studio Project that will be worked on
