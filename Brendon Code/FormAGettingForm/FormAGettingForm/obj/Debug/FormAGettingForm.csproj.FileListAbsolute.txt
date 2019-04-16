@@ -1,0 +1,10 @@
+C:\Users\Blue\Documents\C++\FormAGettingForm\FormAGettingForm\bin\Debug\FormAGettingForm.exe.config
+C:\Users\Blue\Documents\C++\FormAGettingForm\FormAGettingForm\bin\Debug\FormAGettingForm.exe
+C:\Users\Blue\Documents\C++\FormAGettingForm\FormAGettingForm\bin\Debug\FormAGettingForm.pdb
+C:\Users\Blue\Documents\C++\FormAGettingForm\FormAGettingForm\obj\Debug\FormAGettingForm.csprojAssemblyReference.cache
+C:\Users\Blue\Documents\C++\FormAGettingForm\FormAGettingForm\obj\Debug\FormAGettingForm.Form1.resources
+C:\Users\Blue\Documents\C++\FormAGettingForm\FormAGettingForm\obj\Debug\FormAGettingForm.Properties.Resources.resources
+C:\Users\Blue\Documents\C++\FormAGettingForm\FormAGettingForm\obj\Debug\FormAGettingForm.csproj.GenerateResource.cache
+C:\Users\Blue\Documents\C++\FormAGettingForm\FormAGettingForm\obj\Debug\FormAGettingForm.csproj.CoreCompileInputs.cache
+C:\Users\Blue\Documents\C++\FormAGettingForm\FormAGettingForm\obj\Debug\FormAGettingForm.exe
+C:\Users\Blue\Documents\C++\FormAGettingForm\FormAGettingForm\obj\Debug\FormAGettingForm.pdb
