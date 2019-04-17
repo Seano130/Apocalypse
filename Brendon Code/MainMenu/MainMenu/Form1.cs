@@ -17,10 +17,15 @@ namespace MainMenu
         private bool __quitBool = true;
         List<Label> labelsAdded = new List<Label>();
         List<TextBox> textboxsAdded = new List<TextBox>();
+        private Point quitbutton;
+        private Point loadbutton;
         private string characterName;
         public Form1()
         {
             InitializeComponent();
+            //remember locations of when first loading form for load button and quit button.
+            quitbutton = btnQuit.Location;
+            loadbutton = btnLoadGame.Location;
         }
 
         private void btnNewGame_Click(object sender, EventArgs e)
@@ -33,6 +38,21 @@ namespace MainMenu
             __quitBool = !__quitBool;
         }
 
+       
+
+        private void btnLoadGame_Click(object sender, EventArgs e)
+        {
+           
+            lblWelcomeScreen.Text = "Characters:";
+            btnNewGame.Hide();
+            btnQuit.Text = "Back";
+            SetupLoadCharacterInfo();
+            if (__quitBool)
+            {
+                __quitBool = !__quitBool;
+            }
+        }
+
         private void btnQuit_Click(object sender, EventArgs e)
         {
             __quitBool = !__quitBool;
@@ -40,16 +60,20 @@ namespace MainMenu
             {
                 DeleteAddedControls();
                 lblWelcomeScreen.Text = "Welcome Screen";
+                btnQuit.Location = quitbutton;
+                btnLoadGame.Location = loadbutton;
                 btnQuit.Text = "Quit";
                 btnLoadGame.Show();
                 btnNewGame.Show();
-                
+
             }
             else
             {
                 this.Close();
             }
         }
+
+
         private void SetupNewGameLayout()
         {
             Label lb = new Label();
@@ -93,5 +117,14 @@ namespace MainMenu
                 this.Controls.Remove(t);
             }
         }
+        private void SetupLoadCharacterInfo()
+        {
+            int locX = (this.Width/3)+20;
+            int locY = this.Height-150;
+            btnQuit.Location = new Point(locX, locY);
+            btnLoadGame.Location = new Point(locX, this.Height - 100);
+        }
+
+
     }
 }
