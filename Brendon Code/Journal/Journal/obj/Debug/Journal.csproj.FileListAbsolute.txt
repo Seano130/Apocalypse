@@ -1,0 +1,10 @@
+C:\Users\Blue\Documents\C#\Journal\Journal\obj\Debug\Journal.csprojAssemblyReference.cache
+C:\Users\Blue\Documents\C#\Journal\Journal\obj\Debug\Journal.frmJournal.resources
+C:\Users\Blue\Documents\C#\Journal\Journal\obj\Debug\Journal.Properties.Resources.resources
+C:\Users\Blue\Documents\C#\Journal\Journal\obj\Debug\Journal.csproj.GenerateResource.cache
+C:\Users\Blue\Documents\C#\Journal\Journal\obj\Debug\Journal.csproj.CoreCompileInputs.cache
+C:\Users\Blue\Documents\C#\Journal\Journal\bin\Debug\Journal.exe.config
+C:\Users\Blue\Documents\C#\Journal\Journal\bin\Debug\Journal.exe
+C:\Users\Blue\Documents\C#\Journal\Journal\bin\Debug\Journal.pdb
+C:\Users\Blue\Documents\C#\Journal\Journal\obj\Debug\Journal.exe
+C:\Users\Blue\Documents\C#\Journal\Journal\obj\Debug\Journal.pdb
