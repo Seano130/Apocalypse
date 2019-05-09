@@ -11,20 +11,20 @@ using System.Windows.Forms;
 
 //https://colinmackay.scot/2005/04/22/passing-values-between-forms-in-net/
 
+
 namespace GameEngine
 {
-    public partial class frmJournal : Form
+	
+	public partial class frmJournal : Form
 	{
 		
 
 		protected List<Quest> quests = new List<Quest>();
-		
-		
 
-		public frmJournal(Quest quest)
+		
+		public frmJournal(Mob main_character ,Quest quest)
         {
             InitializeComponent();
-            CreateInfo(quest);
             DisplayInfo();
 			this.FormClosing += FrmJournal_FormClosing;
 			
@@ -32,8 +32,9 @@ namespace GameEngine
 
 		private void FrmJournal_FormClosing(object sender, FormClosingEventArgs e)
 		{
+			Form1.tmr.Start();//lets timer in game know to start again when form is closed
 			MessageBox.Show("Closed Quests");
-		}
+		}																		  
 
 		protected void DisplayInfo()
         {
@@ -48,12 +49,9 @@ namespace GameEngine
                 lblStatus.Text += "\n"+q.GetQuestDescription;
             }
         }
-        protected void CreateInfo(Quest quest)
-        {
-           
-			quests.Add(quest);
-           
-        }
+       
+
 		
-    }
+
+	}
 }

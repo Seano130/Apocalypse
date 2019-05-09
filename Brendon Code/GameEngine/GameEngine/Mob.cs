@@ -12,6 +12,8 @@ namespace GameEngine
 		//what is mob
 		int hp;
 		int stamina;
+		Quest quest = new Quest();
+		List<Quest> quests = new List<Quest>();
 		Point location;
 		Image im;
 
@@ -22,7 +24,7 @@ namespace GameEngine
 		{
 			get
 			{
-					return this.location;
+				return this.location;
 			}
 			set
 			{
@@ -30,7 +32,25 @@ namespace GameEngine
 			}
 		}
 		public Image MobImage { get { return this.im; } }
-
+		public List<Quest> Quests
+		{
+			get
+			{
+				return quests;
+			}
+		}
+		public Quest Quest
+		{
+			set
+			{	
+				quest = value;
+				addQuest(quest);
+			}
+		}
+		public void addQuest(Quest q)
+		{
+			quests.Add(q);
+		}
 		public Mob()
 		{
 

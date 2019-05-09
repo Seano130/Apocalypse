@@ -10,23 +10,22 @@ using System.Windows.Forms;
 
 namespace GameEngine
 {
+	
 	public partial class Form1 : Form
 	{
+		public static bool isFormOpen = true;
+
 		List<Mob> mobs = new List<Mob>();
 		Mob mainCharacter;
-		Timer tmr;
+		public static Timer tmr;
 		bool isPaused = false;
 		#region duel key press
 		bool keyW = false;  //south west
 		bool keyA = false;  //south east
 		bool keyS = false; // north west
-		bool keyD  = false; //north east
-		bool multidirection = false;
-		#endregion
-		bool flag = false;
-
+		bool keyD = false; //north east
 		
-
+		#endregion
 
 		public Form1()
 		{
@@ -43,15 +42,11 @@ namespace GameEngine
 			tmr.Interval = 16;
 			tmr.Start();
 
-			 //TODO TEST
-			
-
 
 		}
 
 		private void Tmr_Tick(object sender, EventArgs e)
 		{
-			
 			this.Invalidate();
 		}
 
@@ -66,15 +61,12 @@ namespace GameEngine
 		private void Form1_KeyDown(object sender, KeyEventArgs e)
 		{
 			int WalkSpeed = 10;
-
-			
 			if (keyW)
 			{
 				Point p = new Point();
 				p.X = mainCharacter.Location.X;
 				p.Y = mainCharacter.Location.Y - WalkSpeed;
 				mainCharacter.Location = p;
-
 			}
 			if (keyA)
 			{
@@ -113,10 +105,15 @@ namespace GameEngine
 			{
 				keyD = true;
 			}
-		
-			
 
-
+			if (e.KeyCode == Keys.J)
+			{
+				//open GameEngine
+				tmr.Stop();
+				Quest q = new Quest("Main Quest", "This is the main quest discription", false);
+				frmJournal fm = new frmJournal(mainCharacter, q);
+				fm.Show();
+			}
 			/*
 			 W
 			 Point p = new Point();
@@ -139,8 +136,6 @@ namespace GameEngine
 				p.Y = mainCharacter.Location.Y;
 				mainCharacter.Location = p;
 			 */
-
-
 		}
 
 		private void Form1_KeyUp(object sender, KeyEventArgs e)
@@ -161,16 +156,11 @@ namespace GameEngine
 			{
 				keyD = false;
 			}
-
-			if (e.KeyCode == Keys.J)
-			{
-				tmr.Stop();
-				//open GameEngine	
-				Quest q = new Quest("Main Quest", "This is the main quest discription", false);
-				frmJournal fm = new frmJournal(q);
-				fm.Show();
-				isPaused = true;
-			}
+			
+		}			   
+		protected void continue_timer()
+		{
+			tmr.Start();
 		}
 	}
 }

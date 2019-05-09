@@ -15,7 +15,10 @@ namespace GameEngine
         public string GetQuestName{ get{ return questName; } }
         public string GetQuestDescription { get{ return questDiscription; } }
         public bool GetCompleted { get{ return completed; } }
+		public Quest()
+		{
 
+		}
         public Quest(string questName, string questDiscription, bool completed)
         {
             this.questName = questName;
