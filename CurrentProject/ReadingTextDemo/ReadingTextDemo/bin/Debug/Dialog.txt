@@ -1,0 +1,9 @@
+"Welcome to the Wasteland, Wanderer!" 
+Greet the rugged looking man, covered in cloth and cobbled together metal armor.
+Tell him to "Screw off".
+"Well it was worth a shot, asking you..."(Walk away from the man)
+Game over (Must Return to Explore Mode)
+"I have a job for you! Would you like to hear more about it?" (Continue..)
+I need you to take care of the bandits that have been giving the locals trouble. They're due north of here.(Accept Quest)
+Click Exit to return to Explore mode
+
