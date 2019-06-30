@@ -1,0 +1,11 @@
+C:\Users\Blue\Documents\C#\GameEngine\GameEngine\bin\Debug\GameEngine.exe.config
+C:\Users\Blue\Documents\C#\GameEngine\GameEngine\bin\Debug\GameEngine.exe
+C:\Users\Blue\Documents\C#\GameEngine\GameEngine\bin\Debug\GameEngine.pdb
+C:\Users\Blue\Documents\C#\GameEngine\GameEngine\obj\Debug\GameEngine.csprojAssemblyReference.cache
+C:\Users\Blue\Documents\C#\GameEngine\GameEngine\obj\Debug\GameEngine.Properties.Resources.resources
+C:\Users\Blue\Documents\C#\GameEngine\GameEngine\obj\Debug\GameEngine.csproj.GenerateResource.cache
+C:\Users\Blue\Documents\C#\GameEngine\GameEngine\obj\Debug\GameEngine.csproj.CoreCompileInputs.cache
+C:\Users\Blue\Documents\C#\GameEngine\GameEngine\obj\Debug\GameEngine.exe
+C:\Users\Blue\Documents\C#\GameEngine\GameEngine\obj\Debug\GameEngine.pdb
+C:\Users\Blue\Documents\C#\GameEngine\GameEngine\obj\Debug\GameEngine.Form1.resources
+C:\Users\Blue\Documents\C#\GameEngine\GameEngine\obj\Debug\GameEngine.frmJournal.resources

@@ -1,0 +1,10 @@
+C:\Users\Blue\Documents\C#\MainMenu\MainMenu\bin\Debug\MainMenu.exe.config
+C:\Users\Blue\Documents\C#\MainMenu\MainMenu\bin\Debug\MainMenu.exe
+C:\Users\Blue\Documents\C#\MainMenu\MainMenu\bin\Debug\MainMenu.pdb
+C:\Users\Blue\Documents\C#\MainMenu\MainMenu\obj\Debug\MainMenu.csprojAssemblyReference.cache
+C:\Users\Blue\Documents\C#\MainMenu\MainMenu\obj\Debug\MainMenu.Form1.resources
+C:\Users\Blue\Documents\C#\MainMenu\MainMenu\obj\Debug\MainMenu.Properties.Resources.resources
+C:\Users\Blue\Documents\C#\MainMenu\MainMenu\obj\Debug\MainMenu.csproj.GenerateResource.cache
+C:\Users\Blue\Documents\C#\MainMenu\MainMenu\obj\Debug\MainMenu.csproj.CoreCompileInputs.cache
+C:\Users\Blue\Documents\C#\MainMenu\MainMenu\obj\Debug\MainMenu.exe
+C:\Users\Blue\Documents\C#\MainMenu\MainMenu\obj\Debug\MainMenu.pdb
